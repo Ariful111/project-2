@@ -1,0 +1,22 @@
+$(document).ready(function(){
+//dropdown
+	$(".aicon").mouseenter(function(){
+		$(".dropdown").css({"display":"block"});
+	});
+	$(".a").mouseleave(function(){
+		$(".dropdown").css({"display":"none"});
+	});
+	$(".aicon").click(function(){
+		$(".dropdown").toggleClass("m");
+	});
+	//sub-dropdown		
+	$(".bicon").hover(function(){
+		$(".sub-dropdown").show();
+	});
+	$(".b").mouseleave(function(){
+		$(".sub-dropdown").hide();
+	});
+	$(".bicon").click(function(){
+		$(".sub-dropdown").toggleClass("m");
+	});
+});

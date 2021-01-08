@@ -1,0 +1,14 @@
+@font-face{
+	font-family:Georgia;
+	src:url("Georgia.ttf") format("truetype"),
+	url("Georgia.eot") format("eot"),
+	url("Georgia.woff") format("woff"),
+	url("Georgia.svg#Georgia") format("svg");
+}
+@font-face{
+	font-family:Verdana;
+	src:url("verdana.ttf") format("truetype"),
+	url("verdana.eot") format("eot"),
+	url("verdana.woff") format("woff"),
+	url("verdana.svg#Verdana") format("svg");
+}

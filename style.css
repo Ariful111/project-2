@@ -1,0 +1,350 @@
+/*.................................................
+#Basic
+.................................................*/
+body{
+	font-family:Georgia, sans-serif;
+	color:black;
+	background:#E0E0E0;
+}
+a:hover{
+	opacity:0.7;
+	text-decoration:none;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+button:hover{
+	opacity:0.7;
+}
+p, h1, h2, h3, h4, h5, h6{
+	margin-bottom:0;
+}
+ul{
+	list-style:none;
+	padding:0;
+}
+/*....................................
+#Basic 1
+......................................*/
+.header1, .header2, .header3, .section1, .section2, .section3, .section4, .section5, .section6, footer{
+	width:100%;
+}
+.header1{
+	padding:10px 0;
+	background:#2D2928;
+}
+.header2{
+	padding:30px 0;
+	background:#E0E0E0;
+}
+.header3{
+	padding:0px 0;
+	background:#E0E0E0;
+}
+.section1{
+	padding:30px 0;
+	background:#E0E0E0;
+}
+.section2{
+	padding:0px 0;
+}
+footer{
+	background:#E0E0E0;
+}
+
+/*--==== Simple Nav=====--*/
+.simple-nav .nav-link{
+	color:#c4c4c4;
+	font-size:12px;
+	padding:0 10px;
+	background-image:url(img/snav-border.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.simple-nav li:last-child .nav-link{
+	background-image:none;
+}/*-- End Simple Nav --*/
+
+/*--===== Social Icon =====--*/
+.social-icon .fa {
+	padding-top:8px;
+	padding-bottom:8px;
+	font-size:16px;
+	width:32px;
+	text-align:center;
+	text-decoration: none;
+	margin-right:10px;
+	border-radius:100%;
+	background:#fff;
+	color:gray;
+}
+.social-icon .fa:last-child{
+	margin-right:0;
+}
+.social-icon .fa:hover{
+	color:white;
+	opacity:1;
+}
+.social-icon .fa-facebook:hover {
+	background: #3B5998;
+}
+.social-icon .fa-twitter:hover {
+	background: #55ACEE;
+}
+.social-icon .fa-rss:hover {
+	background: #ff6600;
+}
+.social-icon .fa-google-plus:hover{
+	background:#E3411F;
+}/*-- End Social Icon --*/
+
+/*--===== Navigation =====--*/
+.header3 nav{
+	padding:0 !important;
+}
+.header3 .navbar-collapse{
+	align-items:unset;
+}
+.header3 .navbar{
+	background:#E0E0E0;
+	border-style:double;
+	border-right:none;
+	border-left:none;
+	border-color:#999999;
+}
+.header3 .nav-link{
+	color:#333333;
+	font-size:14px;
+	background:#E0E0E0;
+	border-radius:0;
+	text-align:left;
+	padding:0.5rem !important;
+	text-transform:uppercase;
+}
+.header3 .nav-link:hover{
+	color:#999999;
+	opacity:1;
+}
+.header3 .navbar-toggler{
+	color:#999999;
+	background:#E0E0E0;
+	border:1px solid #999999;
+}
+.header3 .aicon:after{
+	content:"\f107";
+	font-family:FontAwesome;
+	padding-left:10px;
+}
+.header3 .navbar-nav, .dropdown, .sub-dropdown{
+	z-index:555;
+}
+.dropdown, .sub-dropdown{
+	display:none;
+}
+.m{
+	display:block;
+}/*-- End Navigation --*/
+
+/*--===== 500px Img Section =====--*/
+/*--big img--*/
+.section1 .big-img img{
+	padding-bottom:15px;
+	width:100%;
+}
+.section1 .big-img h2{
+	color:#444444;
+	font-size:22px;
+	padding-bottom:15px;
+}
+.section1 .big-img p{
+	color:#666666;
+	font-size:16px;
+}
+/*-- Small img --*/
+.section1 .small-img .img-thumbnail{
+	border:1px solid #999999;
+	border-radius:0;
+}
+.section1 .small-img img{
+	margin-right:15px;
+}
+.section1 .small-img h2{
+	color:#444444;
+	font-size:22px;
+	padding-bottom:10px;
+}
+.section1 .small-img p{
+	color:#666666;
+	font-size:16px;
+}
+.section1 .small-img>div{
+	margin-bottom:20px;
+}/*-- End 500img Section --*/
+
+/*--===== head Section =====--*/
+.section2 .main-section{
+	padding:35px 0;
+	border-style:double;
+	border-color:#999999;
+	border-right:none;
+	border-left:none;
+	margin:15px 0px;
+}
+.section2 .article1 h2{
+	color:#666666;
+	font-size:16px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	border-bottom:1px solid #666666;
+}
+.section2 .article1 .img-thumbnail{
+	border:1px solid #999999;
+	border-radius:0;
+	background:#E0E0E0;
+}
+.section2 .article1 img{
+	width:60px;
+	height:60px;
+	margin-right:10px;
+}
+.section2 .article1 h3{
+	color:#444444;
+	font-size:12px;
+	padding-bottom:5px;
+}
+.section2 .article1 p{
+	color:#666666;
+	font-size:12px;
+}
+.section2 .article1 a{
+	color:#982115;
+	font-size:11px;
+	text-align:right;
+	display:block;
+}
+.section2 .article1>div>div{
+	margin-bottom:15px;
+}
+.section2 .article1>div:first-child{
+	margin-right:20px;
+}
+.section2 .article1{
+	border-style:double;
+	border-color:#999999;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	padding-bottom:10px;
+}
+.section2 .article2{
+	padding-top:30px;
+}
+.section2 .article2 h2{
+	color:#c0c0c0;
+	font-size:12px;
+	padding:10px;
+	background:#2D2928;
+	text-align:center;
+	margin-bottom:15px;
+}
+.section2 .article2 h3{
+	color:#982115;
+	font-size:12px;
+	padding-bottom:5px;
+}
+.section2 .article2 .row>div{
+	margin-right:20px;
+}
+.section2 .article2 .row>div:last-child{
+	margin-right:0;
+}
+.section2 .article2 .img-thumbnail{
+	border:1px solid #999999;
+	border-radius:0;
+}
+.section2 .article2 img{
+	margin-bottom:10px;
+	width:100%;
+}
+.section2 .article2 p{
+	color:#666666;
+	font-size:12px;
+	padding-bottom:10px;
+}
+.section2 .article2 p>a{
+	color:#982014;
+	font-size:11px;
+}
+.section2 aside  h2{
+	color:#666666;
+	font-size:13px;
+	padding:10px 0;
+}
+.section2 aside>div>div{
+	border-top:5px solid #999999;
+}
+.section2 aside>div>div>div{
+	border-top:5px solid #999999;
+	margin-bottom:15px;
+}
+.section2 aside>div>div>div:first-child{
+	border-top:none;
+}
+.section2 aside>div>div>div:last-child{
+	margin-bottom:0;
+}
+.section2 aside  a{
+	color:#982216;
+	font-size:13px;
+	padding-left:10px;
+	display:block;
+	background-image:url(img/right-arrow.png);
+	background-repeat:no-repeat;
+	background-position:left;
+}/*-- End Main Section --*/
+
+/*--===== 5 img Section =====--*/
+.section3 h2{
+	color:#666666;
+	font-size:13px;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	border-bottom:1px solid #BCBCBC;
+}
+.section3 a{
+	color:#982216;
+	font-size:12px;
+	display:block;
+	padding:1px 0;
+}/*-- End 5 img Section --*/
+
+/*--===== Footer =====--*/
+footer p{
+	color:#787878;
+	font-size:12px;
+}
+footer .container>div{
+	border-style:double;
+	border-color:#999999;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	padding:20px 0;
+	margin-top:10px;
+}/*-- End footer --*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
